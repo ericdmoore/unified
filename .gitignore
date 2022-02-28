@@ -3,6 +3,7 @@ coverage/
 !node_modules/extend/
 !node_modules/trough/
 !node_modules/vfile/
+!node_modules/vfile-message/
 !node_modules/@types/unist/
 !node_modules/is-buffer/
 !node_modules/is-plain-obj/

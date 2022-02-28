@@ -13,8 +13,8 @@
 // Furthermore, this is places in the root of the project because types that
 // accept type parameters cannot be re-exported as such easily.
 
-import type {Node} from '../node_modules/@types/unist/index.d.ts'
-import type {VFile, VFileCompatible} from 'vfile'
+import {Node} from './node_modules/@types/unist/index.d.ts'
+import {VFile, VFileCompatible} from './node_modules/vfile/index.d.ts'
 
 /* eslint-disable @typescript-eslint/ban-types, @typescript-eslint/naming-convention */
 

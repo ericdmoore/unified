@@ -1,5 +1,12 @@
 coverage/
-node_modules/
+!node_modules/bail/
+!node_modules/extend/
+!node_modules/trough/
+!node_modules/vfile/
+!node_modules/@types/unist/
+!node_modules/is-buffer/
+!node_modules/is-plain-obj/
+node_modules/[!bail|!extend|!trough|!vfile|!is-buffer|!is-plain-obj]/
 .DS_Store
 lib/**/*.d.ts
 test/**/*.d.ts
